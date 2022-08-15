@@ -1,0 +1,11 @@
+chicken_legs = 2
+cow_legs = 4
+pig_legs = 4
+
+chicken = int(input("Enter some chicken: ")) 
+cow = int(input("Enter some cow: "))
+pig = int(input("Enter some pig: "))
+
+result = (chicken*chicken_legs)+(cow*cow_legs)+(pig*pig_legs)
+
+print(result)

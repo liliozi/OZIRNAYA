@@ -1,0 +1,16 @@
+time = int(input("Enter minutes: "))
+
+if time >= 0 and time <= 15:
+    print (1)
+
+elif time > 15 and time <= 30:
+    print (2)
+
+elif time > 30 and time <= 45:
+    print(3)
+
+elif time > 45 and time <= 60:
+    print(4)
+
+else:
+    print("Not correct time")
